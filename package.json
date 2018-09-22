@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://aideed4.github.io/deploy-me",
   "dependencies": {
+    "gh-pages": "^2.0.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-scripts": "1.1.5"
@@ -15,6 +16,5 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   }
 }
